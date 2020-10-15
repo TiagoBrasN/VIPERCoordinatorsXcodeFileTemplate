@@ -15,7 +15,7 @@ class ___VARIABLE_sceneName___Coordinator: Coordinator {
     // NOTE: This array is used to retain child coordinators. Don't forget to
     // remove them when the coordinator is done.
     var children: [Coordinator] = []
-    // weak var delegate: ___VARIABLE_sceneName___CoordinatorDelegate?
+    weak var delegate: ___VARIABLE_sceneName___CoordinatorDelegate?
 
     // MARK: - Init
     init(navigationController: UINavigationController) {
@@ -32,6 +32,7 @@ class ___VARIABLE_sceneName___Coordinator: Coordinator {
         // navigationController.setViewControllers([vc], animated: false)
     }
 }
+
 // MARK: - Navigation Callbacks
 // PRESENTER -> COORDINATOR
 extension ___VARIABLE_sceneName___Coordinator: ___VARIABLE_sceneName___CoordinatorInput {
