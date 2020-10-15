@@ -18,6 +18,10 @@ enum ___VARIABLE_sceneName___ {
     enum Route {
 
     }
+
+    enum Result {
+        case success
+    }
 }
 
 extension ___VARIABLE_sceneName___.DisplayData {

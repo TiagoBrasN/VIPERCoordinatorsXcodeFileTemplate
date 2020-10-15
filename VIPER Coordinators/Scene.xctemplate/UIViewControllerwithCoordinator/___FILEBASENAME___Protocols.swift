@@ -11,9 +11,9 @@ import UIKit
 
 // ======== Coordinator ======== //
 
-//protocol ___VARIABLE_sceneName___CoordinatorDelegate: class {
-//    func coordinator(_ coordinator: Coordinator, finishedWithSuccess success: Bool)
-//}
+protocol ___VARIABLE_sceneName___CoordinatorDelegate: class {
+    func coordinator(_ coordinator: Coordinator, finishedWithResult result: ___VARIABLE_sceneName___.Result)
+}
 
 // PRESENTER -> COORDINATOR
 protocol ___VARIABLE_sceneName___CoordinatorInput: class {
